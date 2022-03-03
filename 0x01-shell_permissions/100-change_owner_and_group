@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R USER:GROUP alx-system_engineering-devops
+chown -R vincent:staff alx-system_engineering-devops
