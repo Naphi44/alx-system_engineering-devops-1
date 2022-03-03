@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R USER:GROUP 0x01-shell_permissions
+chown -R USER:GROUP alx-system_engineering-devops
