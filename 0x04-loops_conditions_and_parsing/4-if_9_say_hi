@@ -9,7 +9,7 @@ do
     (( count++ ))
 if [ $count -eq 9 ]
 then
-    echo "hi"
+    echo "Hi"
 else
     continue
 fi
