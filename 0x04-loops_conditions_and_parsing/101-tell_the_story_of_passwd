@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This script displays the content of the file /etc/passwd
+#+ using this format: The user USERNAME is part of the GROUP_ID gang, lives in HOME_DIRECTORY and rides COMMAND/SHELL. USER ID's place is protected by the passcode PASSWORD, more info about the user here: USER ID INFO
+
+path="/etc/passwd"
+i=1
+line_num=0
+IFS=":"
+if test -f $path
+then
+    line_num="$(wc -l < $path)"
+fields=('username' 'user_id' 'home_dir')
+while [ $i -le "$line_num" ]
+do
+    read -r -a fields < <(tail -n 1 <(head -n $i < $path))
+    echo "The user ${fields[0]} is part of the ${fields[2]} gang, lives in ${fields[5]} and rides ${fields[6]}. ${fields[2]}'s place is protected by the passcode ${fields[1]}, more info about the user here: ${fields[4]}"
+    i="$((i + 1))"
+    done
+fi
