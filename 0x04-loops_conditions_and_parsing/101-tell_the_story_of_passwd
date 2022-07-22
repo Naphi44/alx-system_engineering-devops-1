@@ -13,7 +13,7 @@ fields=('username' 'user_id' 'home_dir')
 while [ $i -le "$line_num" ]
 do
     read -r -a fields < <(tail -n 1 <(head -n $i < $path))
-    echo "The user ${fields[0]} is part of the ${fields[2]} gang, lives in ${fields[5]} and rides ${fields[6]}. ${fields[2]}'s place is protected by the passcode ${fields[1]}, more info about the user here: ${fields[4]}"
+    echo "The user ${fields[0]} is part of the ${fields[3]} gang, lives in ${fields[5]} and rides ${fields[6]}. ${fields[2]}'s place is protected by the passcode ${fields[1]}, more info about the user here: ${fields[4]}"
     i="$((i + 1))"
     done
 fi
