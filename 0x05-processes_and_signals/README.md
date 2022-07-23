@@ -20,7 +20,7 @@ I also learnt how to use the following commands
 
 ## TASKS
 - Task 0
-    - [0-what-is-my-pid](0x05-processes_and_signals\0-what-is-my-pid): A Bash script that displays its own PID
+    - [0-what-is-my-pid](https://github.com/BrightTech10/alx-system_engineering-devops/blob/45c0b4df7b3ce582c6fadeeb480d38b93f49517c/0x05-processes_and_signals/0-what-is-my-pid): A Bash script that displays its own PID
 
 - Task 1
     - [1-list_your_processes](0x05-processes_and_signals\1-list_your_processes): Bash script that displays a list of currently running processes.
