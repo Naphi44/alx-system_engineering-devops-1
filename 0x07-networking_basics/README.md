@@ -59,20 +59,20 @@ In this project I learnt the following:
         2. The unique identifier of a network interface
         3. Is a number that network devices use to connect to networks
 
+![TCP/UDP](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220727T104002Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8d79c57c8e47c3d1a16b3155a13519d0624d9ca792b94bde3c687273cb4122ab)
+
 - <b>Task 3</b>
     - [3-UDP_and_TCP](https://github.com/BrightTech10/alx-system_engineering-devops/blob/main/0x07-networking_basics/3-UDP_and_TCP):
 
-![TCP/UDP](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220727T104002Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8d79c57c8e47c3d1a16b3155a13519d0624d9ca792b94bde3c687273cb4122ab)
-
-- Which statement is correct for the TCP box:
-    1. It is a protocol that is transferring data in a slow way but surely
-    2. It is a protocol that is transferring data in a fast way and might loss data along in the process
-- Which statement is correct for the UDP box:
-    1. It is a protocol that is transferring data in a slow way but surely
-    2. It is a protocol that is transferring data in a fast way and might loss data along in the process
-- Which statement is correct for the TCP worker:
-    1. Have you received boxes x, y, z?
-    2. May I increase the rate at which I am sending you boxes?
+    - Which statement is correct for the TCP box:
+        1. It is a protocol that is transferring data in a slow way but surely
+        2. It is a protocol that is transferring data in a fast way and might loss data along in the process
+    - Which statement is correct for the UDP box:
+        1. It is a protocol that is transferring data in a slow way but surely
+        2. It is a protocol that is transferring data in a fast way and might loss data along in the process
+    - Which statement is correct for the TCP worker:
+        1. Have you received boxes x, y, z?
+        2. May I increase the rate at which I am sending you boxes?
 
 - <b>Task 4</b>
     - [4-TCP_and_UDP_ports](https://github.com/BrightTech10/alx-system_engineering-devops/blob/main/0x07-networking_basics/4-TCP_and_UDP_ports):
@@ -88,5 +88,5 @@ In this project I learnt the following:
     - Requirements:
 
         - Accepts a string as an argument
-        - Displays ``Usage: 5-is_the_host_on_the_network {IP_ADDRESS}`` if no argument passed
+        - Displays `Usage: 5-is_the_host_on_the_network {IP_ADDRESS}` if no argument passed
         - Ping the IP 5 times
