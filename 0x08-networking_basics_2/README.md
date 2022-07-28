@@ -5,10 +5,10 @@
 ![localhost](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png)
 
 In this project I learnt the following:
-- ifconfig
-- telnet
-- nc
-- cut
+- ``ifconfig``
+- ``telnet``
+- ``nc``
+- ``cut``
 
 ## TASKS
 
@@ -56,6 +56,7 @@ In this project I learnt the following:
     rtt min/avg/max/mdev = 8.065/8.065/8.065/0.000 ms
     ```
 
+
 - Task 1
     - [1-show_attached_IPs](https://github.com/BrightTech10/alx-system_engineering-devops/blob/main/0x08-networking_basics_2/1-show_attached_IPs): A Bash script that displays all active IPv4 IPs on the machine it’s executed on.
 
@@ -67,6 +68,7 @@ In this project I learnt the following:
     127.0.0.1$
     bright@BRIGHT$
     ```
+
 
 - Task 2
     - [100-port_listening_on_localhost](https://github.com/BrightTech10/alx-system_engineering-devops/blob/main/0x08-networking_basics_2/100-port_listening_on_localhost): A Bash script that listens on port 98 on localhost.
@@ -96,7 +98,7 @@ In this project I learnt the following:
 
     Receiving the text on the other side.
     ```Bash
-    sylvain@ubuntu$ sudo ./100-port_listening_on_localhost
+    bright@BRIGHT$ sudo ./100-port_listening_on_localhost
     Hello world
     test
     ```
